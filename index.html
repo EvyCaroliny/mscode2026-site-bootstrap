@@ -1,0 +1,140 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg-info-subtle">
+                <nav class="navbar navbar-expand-lg bg-info-subtle text-info-emphasis container">
+                <a class="navbar-brand" href="#">Minha Loja</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link Categorias" href="#" role="button" data-bs-toggle="Categorias"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="Categorias" href="#">Action</a></li>
+                                <li><a class="Categorias" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="Categorias">
+                                </li>
+                                <li><a class="Categorias" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="Buscar Produto">
+                        <input class="form-control me-2" type="Buscar Produto" placeholder="Buscar Produto" aria-label="Buscar Produto"/>
+                        <button type="button" class="btn btn-outline-info">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="container">
+            <h2>Bem-vindo à nossa loja!</h2>
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYL-3_wuVHX8cTbZ7yvu22iD6LqaxF3MEN_dnWYwNvSFxAnq3m0F0t-ME&s=10" alt="imagem principal" width="500" height="400"></td>
+        </section>
+
+        <section id="categorias" class="container">
+            <h2>Categorias</h2>
+            <ul>
+                <li>Roupas</li>
+                <li>calcados</li>
+                <li>Perfumaria</li>
+            </ul>
+        </section>
+
+        <section id="produtos" class="container">
+            <h2>Nossos Produtos</h2>
+            <table class="table table-striped table-hover table-bordered align-middle">
+                <thead class="table-info">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                        <th>Foto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">Vestido</a></td>
+                        <td>R$ 17.600</td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfcz3HTKlGziBBHjk5Q7KbE6DVqJvszAz6Wx4FBPJuQlemjCdzTXrqbPixqVjuYCiw0hgi7e-3o6VAzVVgro3_GEnzTsmXNJ6uzKwXSt9186YBW0IXxWv3Ew" alt="Vestido" width="100" height="100"></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Salto</a></td>
+                        <td>R$ 2.500</td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapMj2FHPreMRbOjOYoFDMEwkdQz5cbg3YOAcPn-54-8Jo_pM8TnAbD_lQ&s=10" alt="Colar" width="100" height="100"></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Perfume</a></td>
+                        <td>R$ 1.248</td>
+                        <td><img src="https://http2.mlstatic.com/D_NQ_NP_963103-MLA86862729967_062025-O.webp" alt="Perfume" width="100" height="100"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Fale Conosco</h2>
+            <form>
+            <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="inputPassword4">
+    </div>
+        
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto"><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea><br><br>
+
+                <button type="button" class="btn btn-outline-info">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="navbar bg-info-subtle">
+        <div class="container justify-content-space-between">
+        <p>Redes sociais</p>
+        <p>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+            <a href="#">Linkedin</a>
+        </p>
+        <p>&copy; 2026 Minha Loja. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
