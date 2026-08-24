@@ -1,1 +1,1 @@
-# mscode2026-site-bootstrap
+site-bootstrap2026
